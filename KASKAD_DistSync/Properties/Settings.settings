@@ -8,5 +8,8 @@
     <Setting Name="dp" Type="System.String" Scope="User">
       <Value Profile="(Default)">_DistManager.State.SystemNums</Value>
     </Setting>
+    <Setting Name="ip" Type="System.String" Scope="User">
+      <Value Profile="(Default)">170.1.1.1</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

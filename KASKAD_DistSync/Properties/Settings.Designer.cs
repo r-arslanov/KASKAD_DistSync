@@ -46,5 +46,17 @@ namespace KASKAD_DistSync.Properties {
                 this["dp"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("170.1.1.1")]
+        public string ip {
+            get {
+                return ((string)(this["ip"]));
+            }
+            set {
+                this["ip"] = value;
+            }
+        }
     }
 }

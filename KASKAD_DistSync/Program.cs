@@ -52,7 +52,7 @@ namespace KASKAD_DistSync
         public static void getTime()
         {
             //StarWars();
-            Process.Start("net", @"time \\170.1.1.101 /set /y");
+            Process.Start("net", @"time \\"+ Properties.Settings.Default["ip"] + " /set /y");
             Thread.Sleep(30000);
             Console.WriteLine("Set time");
             if (!checkDp())
