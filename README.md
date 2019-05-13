@@ -14,6 +14,9 @@
       <setting name="dp" serializeAs="String">
         <value>_DistManager.State.SystemNums</value>
       </setting>
+      <setting name="ip" serializeAs="String">
+        <value>170.1.1.1</value>
+      </setting>
     </KASKAD_DistSync.Properties.Settings>
     ````
 4. Открывшееся окно консоли оставить открытым на протяжении всего времени работы
