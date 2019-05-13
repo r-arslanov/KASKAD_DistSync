@@ -9,7 +9,7 @@
     ````XML
     <KASKAD_DistSync.Properties.Settings>
       <setting name="system" serializeAs="String">
-        <value>1</value>
+        <value>1</value> <!-- Вот это значение -->
       </setting>
       <setting name="dp" serializeAs="String">
         <value>_DistManager.State.SystemNums</value>
